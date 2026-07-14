@@ -270,7 +270,60 @@
       </ol>
     </section>
 
+    <section id="quick-feedback">
+      <h2>Quick Feedback</h2>
+      <form action="#">
+        <div>
+          <label for="fav-coffee">Favorite Coffee:</label>
+          <select id="fav-coffee" name="fav-coffee">
+            <optgroup label="Common">
+              <option value="latte">Latte</option>
+              <option value="americano">Americano</option>
+              <option value="cappuccino">Cappuccino</option>
+              <option value="espresso">Espresso</option>
+              <option value="drip">Drip Coffee</option>
+            </optgroup>
+            <optgroup label="Niche / Rare">
+              <option value="kopi-luwak">Kopi Luwak</option>
+              <option value="turkish">Turkish Coffee</option>
+              <option value="cascara">Cascara Tea</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div>
+          <label for="keyword">Coolest-sounding keyword:</label>
+          <input type="text" id="keyword" name="keyword" list="keyword-options" placeholder="Type or choose...">
+          <datalist id="keyword-options">
+            <option value="quantum entanglement"></option>
+            <option value="decoherence window"></option>
+            <option value="neural microtubules"></option>
+            <option value="cryogenic stabilization"></option>
+          </datalist>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <hr>
+
+    <address>
+      Correspondence should be directed to:<br>
+      Dr. Wilhelmina Quark<br>
+      Department of Applied Caffeination, Globocorp Research Institute<br>
+      42 Quantum Way, New New York, NY 10001<br>
+      <a href="mailto:wquark@globocorp.com">wquark@globocorp.com</a>
+    </address>
+
   </main>
+
+  <footer>
+    <p>
+      &copy; 2025 Globocorp Research Institute. This research was funded by Grant #QC-2025-42 from the
+      Department of Applied Caffeination.
+    </p>
+  </footer>
 
 </body>
 </html>
